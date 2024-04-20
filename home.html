@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Eligibility Checker</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <nav class="navbar">
+                <div class="app-logo">
+                    <img src="./image/ele.jpeg" alt="">
+                    <h1>ELIGIBILITY CHECKER</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="ham-burger">&#9776;</div>
+            </nav>
+        </div>
+    </header>
+    <div class="top-row">
+        <div class="top-left">
+            <h1>Discover Your Eligibility Today!</h1>
+            <p>Explore Your Job Eligibility with Our Eligibility Checker App!</p>
+        </div>
+        <div class="top-right">
+            <img src="./image/ele.jpeg" alt="">
+        </div>
+    </div>
+    
+    <div class="main-content">
+        <div class="wrapper">
+            <h2>Gain Access to Your Ideal Career Path with eligibilityChecker!</h2>
+            <p>Answer a few simple questions below</p>
+                <p>and unlock your potential with our free eligibilityChecker app!</p>
+        </div>
+        <div class="form-container">
+            <form action="form.php" method="post">
+                <label for="diploma">Gained Diploma</label>
+                <input type="text" id="diploma" name="diploma" required>
+
+                <label for="graduationDate">Year of Graduation</label>
+                <input type="number" id="graduationDate" name="gradYear" required>
+
+                <label for="experienceYear">Experience</label>
+                <input type="number" id="experienceYear" name="expYear" required>
+
+                <label for="importantSkill">Skills Achieved</label>
+                <input type="text" id="importantSkill" name="requiredSkill" required>
+
+                <label for="terms" class="check-box">
+                    <input type="checkbox" name="myTerms" id="terms">
+                    I agree that the above mentioned information is correct.
+                </label>
+
+                <button type="submit">Check Your Eligibility</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="foot">
+            <p>&copy; 2024 Excellent Software Corporations. All rights reserved.</p>
+            <p>eligibilityChecker App - Discover your potential and unlock new career opportunities.</p>
+            <p>For more inquiries, contact us at at <a href="Atexcellent@gmail.com">Atexcellent@gmail.com</a></p>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
